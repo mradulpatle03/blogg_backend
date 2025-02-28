@@ -26,7 +26,7 @@ const app= express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin:["http://localhost:5173"],
+    origin:["http://localhost:5173","blogg-frontend-8jz9.vercel.app"],
     methods:["GET","POST","PUT","DELETE","HEAD","PATCH"],
     credentials:true
 
